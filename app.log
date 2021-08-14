@@ -1,0 +1,30 @@
+[2020-07-26 19:42 Etc/GMT] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2020-07-26 19:42 Etc/GMT] HTTP response of validation request: HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 26 Jul 2020 19:42:48 GMT
+Paypal-Debug-Id: 9c8c066308897
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=cGtv_6vH4glaRhG7d2XDDTrFC-LbhYmCd2G8ubYOWoL7t3TOWk74whwRXHXsxEuLpMCsYyZWTMpDigCp-3za3LIgaOex4Bq0PzGB2YznwVbZGe1xLq4J0UR4YSbPjhow_vfdUODA911jzoTao77GhA63JSfod1gW9lfzn2wAftEUnjsjpYVUiyQwhYjTNwVJ1Dh4ILFn8uTyKiEHJudXNvAZEerrYYSuoXaGl46td-hdLWhe4SIIZ79ypZLeOVvR4BX87yfe-MW-gqTvP5DAktSh-g4-NGVTTMZLi1oTDBPUlRjfUb8fJrlK0Hw1tupInRKY2E6dSensA860_tnY6bKicF0oHgJeN5bAQnsO8FXfPKnpMQvgOotzUNnlu4WhhdyWM-UEWLU6X1KxXtIWcaT1fCfTTEq6q7JHYvyNCDYKRYOxET7vKoEzoC0; Path=/; Domain=paypal.com; HttpOnly; Secure
+Set-Cookie: cookie_check=yes; Path=/; Domain=paypal.com; Expires=Wed, 24 Jul 2030 19:42:49 GMT; HttpOnly; Secure
+Set-Cookie: navcmd=_notify-validate; Path=/; Domain=paypal.com; HttpOnly; Secure
+Set-Cookie: navlns=0.0; Path=/; Domain=paypal.com; Expires=Tue, 26 Jul 2022 19:42:49 GMT; HttpOnly; Secure
+Set-Cookie: Apache=10.72.108.11.1595792568375838; Path=/
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1595792569%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Path=/; Domain=paypal.com; Expires=Sun, 26 Jul 2020 20:12:49 GMT; HttpOnly; Secure
+Set-Cookie: ts=vreXpYrS%3D1690400568%26vteXpYrS%3D1595794368%26vr%3D8ca6302b1730a488df8a6ca4ff63d862%26vt%3D8ca6302b1730a488df8a6ca4ff63d861%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 26 Jul 2023 19:42:49 GMT; HttpOnly; Secure
+Set-Cookie: ts_c=vr%3D8ca6302b1730a488df8a6ca4ff63d862%26vt%3D8ca6302b1730a488df8a6ca4ff63d861; Path=/; Domain=paypal.com; Expires=Wed, 26 Jul 2023 19:42:49 GMT; Secure
+Set-Cookie: X-PP-L7=1; Path=/; Domain=paypal.com; Secure
+Vary: Accept-Encoding,User-Agent
+X-Frame-Options: SAMEORIGIN
+Content-Length: 7
+Connection: close
+Strict-Transport-Security: max-age=63072000
+
+INVALID
+[2020-07-26 19:42 Etc/GMT] Invalid IPN: cmd=_notify-validate

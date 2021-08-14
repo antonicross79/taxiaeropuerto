@@ -1,0 +1,27 @@
+User-Agent: *
+Disallow: /
+Disallow: /adminaccesso
+Disallow: /css
+Disallow: /images
+Disallow: /js
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Googlebot-Mobile
+Allow: /
+
+User-Agent: Googlebot-Image
+Allow: /
+
+User-Agent: Baidu
+Allow: /
+
+User-Agent: Bingbot
+Allow: /
+
+User-Agent: Msnbot
+Allow: /
+
+User-Agent: Yandex
+Allow: /

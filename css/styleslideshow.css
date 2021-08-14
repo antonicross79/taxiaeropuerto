@@ -1,0 +1,190 @@
+/* body
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+*/
+.container
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+
+}
+.container .slider
+{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    float: left;
+    animation: animate 30s linear infinite;
+}
+.container .slider .slide
+{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+
+}
+.container .slider .slide .caption
+{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    right: 60px;
+    padding: 70px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    transition: 1s;
+}
+.container .slider .slide .caption h2
+{
+    
+    margin: 0 0 20px;
+    padding: 0;
+    color: #fff;
+    font-size: 48px;
+    transition: 1s;
+}
+
+.container .slider .slide .caption p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    transition: 1s;
+}
+.container .slider .slide.foto1
+{
+    background: url(foto1.jpeg);
+    background-size: cover;
+    background-position: center ;
+}
+
+
+.container .slider .slide.slide2
+{
+    background: url(taxi_aeropuerto_cancun_2.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+.container .slider .slide.slide3
+{
+    background: url(slide3.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.container .slider .slide.foto1
+{
+    background: url(foto1.jpeg);
+    background-size: cover;
+    background-position: center ;
+}
+
+
+
+.container .slider .slide.foto1
+{
+    background: url(foto1.jpeg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.container .slider .slide.foto2
+{
+    background: url(foto2.jpeg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.container .slider .slide.foto3
+{
+    background: url(foto3.jpeg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.container .slider .slide.foto4
+{
+    background: url(foto4.jpeg);
+    background-size: cover;
+    background-position: center ;
+}
+
+
+@keyframes animate
+{
+
+    0%
+    {
+        left: 0;
+    }
+    20%
+    {
+        left: 0;
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+
+}
+@media (max-width: 468px)
+{
+    .container .slider .slide .caption
+{
+    position: absolute;
+    bottom : 20px; 
+    left:   20px; 
+    right:  20px; 
+    padding: 20px;
+    
+}
+
+
+.container .slider .slide .caption h2
+{
+    
+    
+    font-size: 38px;
+}
+
+.container .slider .slide .caption p
+{
+    
+    color: #fff;
+    font-size: 16px;
+}
+}

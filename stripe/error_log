@@ -1,0 +1,4 @@
+[28-Jul-2021 23:02:16 UTC] PHP Fatal error:  Uncaught (Status 402) (Request req_fPvfZ8sdwMFJ9A) Your card has insufficient funds.
+  thrown in /home/canczdhg/taxiaeropuertodecancun.com/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[28-Jul-2021 23:03:07 UTC] PHP Fatal error:  Uncaught (Status 402) (Request req_MIS4Ym9qZlAmxw) Cannot charge a customer that has no active card
+  thrown in /home/canczdhg/taxiaeropuertodecancun.com/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38

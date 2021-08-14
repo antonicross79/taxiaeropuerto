@@ -1,0 +1,81 @@
+{
+    "Hoja1": [
+        {
+            "CANCUN": "Holbox",
+            "1-8 PAX ONE AWAY": "2400",
+            "1-8 PAX ROUND TRIP": "4400",
+            "9-16 PAX ONE AWAY": "3400",
+            "9-16 PAX ROUND TRIP": "6400",
+            "1-16 GRUPO ONE AWAY": "3400",
+            "1-16 GRUPO ROUND TRIP": "6400",
+            "1-16 SUBURBAN ONE AWAY": "4000",
+            "1-16 SUBURBAN ROUND TRIP": "7800"
+        },
+        {
+            "CANCUN": "Ferry to Holbox",
+            "1-8 PAX ONE AWAY": "2400",
+            "1-8 PAX ROUND TRIP": "4400",
+            "9-16 PAX ONE AWAY": "3400",
+            "9-16 PAX ROUND TRIP": "6400",
+            "1-16 GRUPO ONE AWAY": "3400",
+            "1-16 GRUPO ROUND TRIP": "6400",
+            "1-16 SUBURBAN ONE AWAY": "4000",
+            "1-16 SUBURBAN ROUND TRIP": "7800"
+        },
+        {
+            "CANCUN": "Ferry Chiquilá (Holbox)",
+            "1-8 PAX ONE AWAY": "2400",
+            "1-8 PAX ROUND TRIP": "4400",
+            "9-16 PAX ONE AWAY": "3400",
+            "9-16 PAX ROUND TRIP": "6400",
+            "1-16 GRUPO ONE AWAY": "3400",
+            "1-16 GRUPO ROUND TRIP": "6400",
+            "1-16 SUBURBAN ONE AWAY": "4000",
+            "1-16 SUBURBAN ROUND TRIP": "7800"
+        },
+        {
+            "CANCUN": "BACALAR",
+            "1-8 PAX ONE AWAY": "5500",
+            "1-8 PAX ROUND TRIP": "10000",
+            "9-16 PAX ONE AWAY": "8000",
+            "9-16 PAX ROUND TRIP": "1500",
+            "1-16 GRUPO ONE AWAY": "8000",
+            "1-16 GRUPO ROUND TRIP": "1500",
+            "1-16 SUBURBAN ONE AWAY": "8000",
+            "1-16 SUBURBAN ROUND TRIP": "1500"
+        },
+        {
+            "CANCUN": "MAHAHUAL",
+            "1-8 PAX ONE AWAY": "5500",
+            "1-8 PAX ROUND TRIP": "10000",
+            "9-16 PAX ONE AWAY": "8000",
+            "9-16 PAX ROUND TRIP": "1500",
+            "1-16 GRUPO ONE AWAY": "8000",
+            "1-16 GRUPO ROUND TRIP": "1500",
+            "1-16 SUBURBAN ONE AWAY": "8000",
+            "1-16 SUBURBAN ROUND TRIP": "1500"
+        },
+        {
+            "CANCUN": "CHICHEN ITZA",
+            "1-8 PAX ONE AWAY": "4000",
+            "1-8 PAX ROUND TRIP": "4000",
+            "9-16 PAX ONE AWAY": "5000",
+            "9-16 PAX ROUND TRIP": "5000",
+            "1-16 GRUPO ONE AWAY": "5000",
+            "1-16 GRUPO ROUND TRIP": "5000",
+            "1-16 SUBURBAN ONE AWAY": "7000",
+            "1-16 SUBURBAN ROUND TRIP": "7000"
+        },
+        {
+            "CANCUN": "MERIDA",
+            "1-8 PAX ONE AWAY": "5500",
+            "1-8 PAX ROUND TRIP": "10000",
+            "9-16 PAX ONE AWAY": "8000",
+            "9-16 PAX ROUND TRIP": "15000",
+            "1-16 GRUPO ONE AWAY": "8000",
+            "1-16 GRUPO ROUND TRIP": "15000",
+            "1-16 SUBURBAN ONE AWAY": "8000",
+            "1-16 SUBURBAN ROUND TRIP": "15000"
+        }
+    ]
+}

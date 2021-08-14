@@ -1,0 +1,878 @@
+Log started: 2021-01-18 03:16
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 5U691124WE127510X
+ IPN ITEM ID 267
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='5U691124WE127510X' WHERE id_reservacion=267
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =267
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=267
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=267 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=267 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-01-18 03:24
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 85Y711087D766432W
+ IPN ITEM ID 268
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='85Y711087D766432W' WHERE id_reservacion=268
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =268
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=268
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=268 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=268 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-01-18 03:28
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 0C822391FE394320V
+ IPN ITEM ID 269
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='0C822391FE394320V' WHERE id_reservacion=269
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =269
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=269
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=269 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=269 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-18 03:37
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 6T399410EB618133Y
+ IPN ITEM ID 270
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='6T399410EB618133Y' WHERE id_reservacion=270
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =270
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=270
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=270 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=270 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-18 03:48
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 69H852633F081100K
+ IPN ITEM ID 271
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='69H852633F081100K' WHERE id_reservacion=271
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =271
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=271
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=271 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=271 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-18 03:52
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 80C131017A0828938
+ IPN ITEM ID 272
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='80C131017A0828938' WHERE id_reservacion=272
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =272
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=272
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=272 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=272 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-01-18 03:59
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 9GB12163XW011813P
+ IPN ITEM ID 273
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='9GB12163XW011813P' WHERE id_reservacion=273
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =273
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=273
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=273 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=273 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-18 04:04
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 5M0474513S595730U
+ IPN ITEM ID 274
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='5M0474513S595730U' WHERE id_reservacion=274
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =274
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=274
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=274 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=274 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-20 03:05
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 4S193876E2093060K
+ IPN ITEM ID 278
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='4S193876E2093060K' WHERE id_reservacion=278
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =278
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=278
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=278 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=278 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 22:56
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 233247444X4076725
+ IPN ITEM ID 357
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='233247444X4076725' WHERE id_reservacion=357
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =357
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=357
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=357 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=357 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 23:12
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 09U800067S726963K
+ IPN ITEM ID 358
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='09U800067S726963K' WHERE id_reservacion=358
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =358
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=358
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=358 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=358 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 23:17
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 06420883HY7492727
+ IPN ITEM ID 359
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='06420883HY7492727' WHERE id_reservacion=359
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =359
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=359
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=359 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=359 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 23:22
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 68B48002JU979510K
+ IPN ITEM ID 360
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='68B48002JU979510K' WHERE id_reservacion=360
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =360
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=360
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=360 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=360 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 23:37
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 0CX29420YP280852V
+ IPN ITEM ID 361
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='0CX29420YP280852V' WHERE id_reservacion=361
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =361
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=361
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=361 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=361 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 23:47
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 10X17704XF920504S
+ IPN ITEM ID 362
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='10X17704XF920504S' WHERE id_reservacion=362
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =362
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=362
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=362 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=362 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 23:51
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 6DE88051AX356270Y
+ IPN ITEM ID 363
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='6DE88051AX356270Y' WHERE id_reservacion=363
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =363
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=363
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=363 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=363 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-26 23:59
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 5HE70878R63281404
+ IPN ITEM ID 364
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='5HE70878R63281404' WHERE id_reservacion=364
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =364
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=364
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=364 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=364 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 00:16
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 95U99420PJ9465026
+ IPN ITEM ID 365
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='95U99420PJ9465026' WHERE id_reservacion=365
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =365
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=365
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=365 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=365 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 02:23
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 0AR18519JC823090S
+ IPN ITEM ID 374
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='0AR18519JC823090S' WHERE id_reservacion=374
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =374
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=374
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=374 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=374 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 02:23
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 44Y94951SH108192D
+ IPN ITEM ID 375
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='44Y94951SH108192D' WHERE id_reservacion=375
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =375
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=375
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=375 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=375 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 02:25
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 0DP23464K1592800G
+ IPN ITEM ID 372
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='0DP23464K1592800G' WHERE id_reservacion=372
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =372
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=372
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=372 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=372 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 02:29
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 00X11843KT763801D
+ IPN ITEM ID 373
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='00X11843KT763801D' WHERE id_reservacion=373
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =373
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=373
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=373 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=373 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-01-27 02:34
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 7SH28593SD286343F
+ IPN ITEM ID 371
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='7SH28593SD286343F' WHERE id_reservacion=371
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =371
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=371
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=371 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=371 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 02:47
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 55B25369JM462615M
+ IPN ITEM ID 376
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='55B25369JM462615M' WHERE id_reservacion=376
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =376
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=376
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=376 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=376 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 02:53
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 8KK47597148948923
+ IPN ITEM ID 377
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='8KK47597148948923' WHERE id_reservacion=377
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =377
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=377
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=377 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=377 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 03:05
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 85D34026XW4549734
+ IPN ITEM ID 378
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='85D34026XW4549734' WHERE id_reservacion=378
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =378
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=378
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=378 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=378 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-01-27 03:32
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 58839486NH643251W
+ IPN ITEM ID 379
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='58839486NH643251W' WHERE id_reservacion=379
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =379
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=379
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=379 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=379 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-01-27 03:58
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 75D69435C6358580M
+ IPN ITEM ID 380
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='75D69435C6358580M' WHERE id_reservacion=380
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =380
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=380
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=380 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=380 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-01-28 17:22
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN ON SANDBOX
+ IPN RECEIVED FROM LIVE IN SANDBOX
+ IPN TXN ID 4TR4108617672323X
+ IPN ITEM ID 383
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='4TR4108617672323X' WHERE id_reservacion=383
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =383
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=383
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=383 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=383 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-02-06 00:56
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 45953940XP005020G
+ IPN ITEM ID 399
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='45953940XP005020G' WHERE id_reservacion=399
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =399
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=399
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=399 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=399 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-02-07 04:23
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 7N321075TK346142U
+ IPN ITEM ID 421
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='7N321075TK346142U' WHERE id_reservacion=421
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =421
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=421
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=421 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=421 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-02-07 04:30
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN: RECEIVER EMAIL MISMATCH
+ VERIFIED
+ IPN Payment status completed
+ IPN TXN ID 7PU66241D4000234P
+ IPN ITEM ID 422
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='7PU66241D4000234P' WHERE id_reservacion=422
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =422
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=422
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=422 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=422 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-07-15 02:58
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 148829725
+ IPN ITEM ID 
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='148829725' WHERE id_reservacion=
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion= AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion= AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-19 18:43
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 5NY838935B532130N
+ IPN ITEM ID 86
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='5NY838935B532130N' WHERE id_reservacion=86
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =86
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=86
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=86 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=86 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-19 18:52
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 37G58622AE529891A
+ IPN ITEM ID 87
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='37G58622AE529891A' WHERE id_reservacion=87
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =87
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=87
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=87 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=87 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-19 18:55
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 5D462377191852051
+ IPN ITEM ID 88
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='5D462377191852051' WHERE id_reservacion=88
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =88
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=88
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=88 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=88 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-07-19 19:19
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 0A403310R2560350R
+ IPN ITEM ID 89
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='0A403310R2560350R' WHERE id_reservacion=89
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =89
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=89
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=89 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=89 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-07-19 20:17
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 86A29473UA5961205
+ IPN ITEM ID 90
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='86A29473UA5961205' WHERE id_reservacion=90
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =90
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=90
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=90 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=90 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-07-19 20:23
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 6HP57120LU2945357
+ IPN ITEM ID 91
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='6HP57120LU2945357' WHERE id_reservacion=91
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =91
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=91
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=91 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=91 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-07-19 20:27
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 24570647D6732700D
+ IPN ITEM ID 92
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='24570647D6732700D' WHERE id_reservacion=92
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =92
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=92
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=92 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=92 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-22 00:54
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 90E94147P4586400E
+ IPN ITEM ID 90
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='90E94147P4586400E' WHERE id_reservacion=90
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =90
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=90
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=90 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=90 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-22 01:02
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 0L5626989H811114P
+ IPN ITEM ID 91
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='0L5626989H811114P' WHERE id_reservacion=91
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =91
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=91
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=91 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=91 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-22 01:08
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 4N070016J64297825
+ IPN ITEM ID 92
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='4N070016J64297825' WHERE id_reservacion=92
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =92
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=92
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=92 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=92 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-22 01:12
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 97710065JT8475348
+ IPN ITEM ID 93
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='97710065JT8475348' WHERE id_reservacion=93
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =93
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=93
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=93 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=93 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-22 18:53
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 2DK87806A2411530N
+ IPN ITEM ID 96
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='2DK87806A2411530N' WHERE id_reservacion=96
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =96
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=96
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=96 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=96 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-22 19:03
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN RECEIVED FROM SANDBOX WHILE LIVE
+ IPN TXN ID 2WD75056UT0130111
+ IPN ITEM ID 98
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='2WD75056UT0130111' WHERE id_reservacion=98
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =98
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=98
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=98 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=98 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ESLog started: 2021-07-25 12:50
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN TXN ID 08162603T4269774G
+ IPN ITEM ID 99
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='08162603T4269774G' WHERE id_reservacion=99
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =99
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=99
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=99 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion=99 AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: ENLog started: 2021-07-26 00:34
+ CORRECT DATABASE
+ IPN class loaded
+ IPN INIT
+ IPN SETUP CORRECTLY
+ IPN verified
+ Loaded POST values
+ Email checked 1
+ LIST loaded
+ IPN TXN ID 26X62549CE640144X
+ IPN ITEM ID 
+ SQL 1: UPDATE reservaciones SET transaccion_paypal='26X62549CE640144X' WHERE id_reservacion=
+ SQL 2: SELECT * FROM reservaciones WHERE id_reservacion =
+ SQL 3: SELECT sum(precio*(cantidad_ida+cantidad_retorno)) suma FROM `extra_reservaciones` er join `extras` ex on(ex.id_extra=er.id_extra) where (cantidad_ida != 0 || cantidad_retorno != 0) group by id_reservacion having id_reservacion=
+ SQL 4: SELECT count(*) cantidad FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion= AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ SQL 5: SELECT * FROM extras AS ex JOIN extra_reservaciones er ON(er.id_extra=ex.id_extra) WHERE er.id_reservacion= AND (cantidad_ida != 0 || cantidad_retorno != 0)
+ IPN LANG: EN
