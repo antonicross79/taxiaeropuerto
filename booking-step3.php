@@ -52,14 +52,14 @@ $respuesta2 = mysqli_query($conexion,$sql2);
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <!-- Global site tag (gtag.js) - Google Ads: 319886299 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-319886299"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PZLBPB41VC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-319886299');
+  gtag('config', 'G-PZLBPB41VC');
 </script>
 
 <!-- Event snippet for reservar conversion page -->
