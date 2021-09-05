@@ -12,9 +12,10 @@ $respuesta = mysqli_query($conexion,$sql);
 <?php
 while ($row = mysqli_fetch_array($respuesta)) {
 	$destino = $row['n_ubicacion'];
+	$destinox = $row['n_zona'];
 	$id = $row['id_ubicacion'];
 	?>
-	<a href="#" class="list-group-item list-group-item-action" onclick="return selectDestination('<?php echo $destino; ?>')"><?php echo $destino; ?></li>
+	<a href="#" class="list-group-item list-group-item-action" onclick="return selectDestination('<?php echo $destino ; ?>')"><?php echo $destino , "&nbsp;" .$destinox; ?></li>
 	<?php
 }
 
