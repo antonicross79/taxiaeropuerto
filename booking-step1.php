@@ -134,6 +134,17 @@ $sql = "SELECT * FROM rutas AS rut
     		box-shadow:8px 7px 10px 0px #00000047;
     	}
     </style>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PZLBPB41VC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PZLBPB41VC');
+</script>
+
   </head>
   
   <body>

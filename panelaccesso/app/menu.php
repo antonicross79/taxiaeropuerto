@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>CancunShuttleAirport | Menu Principal</title>
+  <title>TaxiAeropuerto | Menu Principal</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
@@ -69,7 +69,7 @@
     <a href="index3.html" class="brand-link">
       <img src="../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">CancunShuttleAirport</span>
+      <span class="brand-text font-weight-light">TaxiAeropuerto</span>
     </a>
 
     <!-- Sidebar -->

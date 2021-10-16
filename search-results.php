@@ -39,7 +39,7 @@ $sqlHotelHotel = "SELECT * FROM rutas AS rut
 			LEFT JOIN ubicaciones AS ubi ON ubi.n_ubicacion ='".$destino_2."'
 			LEFT JOIN transportes AS trans ON trans.id_transporte = rut.id_transporte
 			WHERE id_p_llegada = ubi.id_ubicacion AND t_traslado=1 AND ".$personas." BETWEEN cantidad_min and  cantidad_max";
-$respuestaHotelHotel = mysqli_query($conexion,$sql);
+$respuestaHotelHotel = mysqli_query($conexion,$sqlHotelHotel);
 $hotelhotel = [];
 
 while ($rowHotel = mysqli_fetch_array($respuestaHotelHotel)) {
@@ -88,7 +88,7 @@ $user_agent = $_SERVER['HTTP_USER_AGENT'];
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZLBPB41VC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -97,7 +97,6 @@ $user_agent = $_SERVER['HTTP_USER_AGENT'];
 
   gtag('config', 'G-PZLBPB41VC');
 </script>
-
 
 
   </head>

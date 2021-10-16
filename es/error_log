@@ -119,3 +119,17 @@
 [22-Jul-2021 19:07:25 UTC] PHP Notice:  Undefined index: extras in /home/canczdhg/taxiaeropuertodecancun.com/es/booking-step3.php on line 4
 [22-Jul-2021 19:07:25 UTC] PHP Notice:  Undefined index: id_reservacion in /home/canczdhg/taxiaeropuertodecancun.com/es/booking-step3.php on line 5
 [22-Jul-2021 19:07:25 UTC] PHP Notice:  Undefined index: receipt_ID in /home/canczdhg/taxiaeropuertodecancun.com/es/booking-step3.php on line 7
+[24-Aug-2021 17:11:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[03-Sep-2021 18:15:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[03-Sep-2021 18:16:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[18-Sep-2021 16:57:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[20-Sep-2021 23:34:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[25-Sep-2021 16:54:10 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[25-Sep-2021 17:00:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[27-Sep-2021 17:45:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[27-Sep-2021 17:54:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[28-Sep-2021 22:43:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[28-Sep-2021 22:44:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[06-Oct-2021 00:29:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[08-Oct-2021 16:03:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57
+[15-Oct-2021 18:02:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/canczdhg/taxiaeropuertodecancun.com/es/search-results.php on line 57

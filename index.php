@@ -86,7 +86,7 @@
 	</style>
 	
 	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZLBPB41VC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -94,14 +94,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-PZLBPB41VC');
-</script>
-
-<!-- Event snippet for reservar conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-319886299/kK90CJTm2OYCENunxJgB',
-      'transaction_id': ''
-  });
 </script>
 
 
