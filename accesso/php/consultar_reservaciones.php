@@ -345,7 +345,7 @@ if ($opcion == 11) {
                                   <?php
                                 }
                               ?>
-                              <td><?php echo $row_extra['precio'] ?>,00 MXN</td>
+                              <td><?php echo $row_extra['precio'] ?>.00 MXN</td>
                             </tr>
                             <?php
                           }
@@ -357,8 +357,20 @@ if ($opcion == 11) {
                 <!-- /.col -->
                 <?php    
                 }//end if
-                $sumExtras = $rowSumExtras['suma']?$rowSumExtras['suma']:0;
-                $totalWithExtras = $rowSumExtras['suma']+$row['total'];
+                $sumExtras = number_format($rowSumExtras['suma']?$rowSumExtras['suma']:0,2);
+                $SubTotal = number_format($row['total'],2,'.','');
+      
+                    if( $row['Total_comision'] === NULL){
+                        
+                        $totalWithExtras = number_format($sumExtras+$SubTotal,2,'.','');
+                      }
+      
+                      else{
+                          
+                        $totalWithExtras =  number_format($row['Total_comision'],2,'.','');
+                      }       
+      
+      
                 Echo '<div class="col-6">
                   <p class="lead"></p>
 
@@ -366,15 +378,15 @@ if ($opcion == 11) {
                     <table class="table">
                       <tr>
                         <th style="width:50%">Subtotal:</th>
-                        <td>'.$row['total'].',00 MXN</td>
+                        <td>'.$SubTotal.' MXN</td>
                       </tr>
                       <tr>
                         <th style="width:50%">Extras:</th>
-                        <td>'.$sumExtras.',00 MXN</td>
+                        <td>'.$sumExtras.' MXN</td>
                       </tr>
                       <tr>
                         <th>Total:</th>
-                        <td>'.$totalWithExtras.',00 MXN</td>
+                        <td>'.$totalWithExtras.' MXN</td>
                       </tr>
                     </table>
                   </div>

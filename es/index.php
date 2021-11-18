@@ -13,7 +13,6 @@
 	if(stripos($user_agent,'iPhone') || stripos($user_agent,'iPod') || stripos($user_agent,'iPad')){
 		$is_mobile_iphone = true;
 	}
-
 	$destinos = array();
 	$destinos[1] = 'Viaje Redondo: Aeropuerto-Hotel-Aeropuerto';
 	$destinos[2] ='Llegada: Aeropuerto-Hotel';
@@ -37,13 +36,13 @@
 
 
 
-<html lang="en">
+<html lang="es">
    <head><meta charset="utf-8">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="keywords" content="Private Transport and Car Hire HTML Template" />
-	<meta name="description" content="Private Transport and Car Hire HTML Template">
-	<meta name="author" content="themeenergy.com">
+	<meta name="keywords" content="Private Transport Cancun" />
+	<meta name="description" content="Private Transport Cancun">
+	<meta name="author" content="bytedex.com">
 	
 	<title>Home</title>
 	
@@ -190,6 +189,7 @@
 			<div class="input-group mb-3 col-xs-9 col-md-1" id="arrival_date">
 			  <label for="transfer_type" class="col-xs-12 col-md-12 pb-0 pl-0">Llegada</label>
 			  <?php
+			  	//safari mac
 			    if($is_safari == true && $is_mobile_iphone == false){
 			    	?>
 			    	<div class="input-group-prepend">
@@ -198,15 +198,16 @@
 			    	<input type="text" name="dep-date" id="dep-date" placeholder="yyyy-mm-dd" class="form-control" style="height: auto;">
 			    	<?php
 			    }elseif($is_safari == true && $is_mobile_iphone == true){
+			    	//chrome or firefox iPhone
 			    	?>
 			    	<div class="input-group-prepend">
 					    <label class="input-group-text" for="inputGroupSelect01"><i class="fa fa-calendar"></i></label>
 					  </div>
 			    	<input type="date" class="form-control" name="dep-date"placeholder="yyyy-mm-dd" class="form-control" style="height: auto;">
-			    	<?php
+			    <?php
 			    }elseif($is_safari == false){
 			    	?>
-			    	<input type="date" class="form-control" name="dep-date">
+			    	<input type="date" class="form-control" name="dep-date" min="<?php echo date('Y-m-d'); ?>">
 			    	<?php
 			    }
 			    ?>
@@ -248,8 +249,8 @@
 			    	<?php
 			    }else{
 			    	?>
-			    	<input type="date" class="form-control" name="ret-date">
-			    	<?php
+			    	<input type="date" class="form-control" name="ret-date" min="<?php echo date('Y-m-d'); ?>">
+			    	<?php 
 			    }
 			    ?>
 			</div>
@@ -517,10 +518,32 @@
 	-->
 	<!-- //Preloader -->
 	
+	
+	
+	
 	 <!-- jQuery -->
+	 
+	 <?php
+	if ($is_safari == true) {
+		?>
+		<script src="js/jquery.min.js"></script>
+		
+		<?php
+	}else{
+		?>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<?php
+	}
+
+	?>
+	
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	
 	<script src="../js/jquery.uniform.min.js"></script>
 	<script src="../js/jquery.datetimepicker.js"></script>
 	<script src="../js/jquery.slicknav.min.js"></script>
@@ -530,15 +553,10 @@
 	  <script type="text/javascript">
 		window.onload = function () {
 			$("#destination2").hide();
-			$('.main-nav').slicknav({
-				prependTo:'.header .wrap',
-				label:''
-			});
         	Validar();
-        	$('#dep-date').datetimepicker({timepicker:false});
-        	$('#ret-date').datetimepicker({timepicker:false});
+        	$('#dep-date').datetimepicker({timepicker:false,startDate:"<?php echo '+'.date('Y/m/d')?>"});
+        	$('#ret-date').datetimepicker({timepicker:false,startDate:"<?php echo '+'.date('Y/m/d')?>"});
       	}
-		
 		function MostrarMensaje(){
 			alert('El Horario debe ser Entre las 06:00 y las 22:00');
 		}

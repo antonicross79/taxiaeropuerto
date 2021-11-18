@@ -188,12 +188,16 @@
 								  <label class="form-check-label" for="t_pago2">
 								    Secure payment with Paypal
 								  </label>
+								  <br>
+								  <span id="spanPaypal" style="display: none; position: absolute; top: 17px; color:red; font-size: 13px; font-weight: 600;" >9% commission will be charged</span>
 								</div>  
 								<div class="form-check">
 								  <input class="form-check-input" type="radio" name="t_pago" id="t_pago3" value="Stripe" style="width: 12px;height: 12px">
 								  <label class="form-check-label" for="t_pago3">
 								    Secure payment with Stripe
 								  </label>
+								  <br>
+								  <span id="spanStripe" style="display: none; position: absolute; top: 17px; color:red; font-size: 13px; font-weight: 600;" >9% commission will be charged</span>
 								</div>
 							<?php 
 								echo '<input type="hidden" name="ubi1" value="'.$destino_1.'"/>
@@ -339,7 +343,7 @@
 							
 							<dl class="total">
 								<dt>Total</dt>
-								<dd><?php echo $_SESSION['total_and_extras']; ?></dd>
+								<dd><?php echo $_SESSION['total_and_extras']." MXN"; ?></dd>
 							</dl>
 						</div>
 					</div>
@@ -375,6 +379,27 @@
 				label:''
 			});
       	}
+
+		  $(function() {
+				$("input[name='t_pago']").click(function() {
+					if ($("#t_pago2").is(":checked")) {
+					$("#spanPaypal").show();
+					} else {
+					$("#spanPaypal").hide();
+					}
+				});
+				});
+
+				$(function() {
+				$("input[name='t_pago']").click(function() {
+					if ($("#t_pago3").is(":checked")) {
+					$("#spanStripe").show();
+					} else {
+					$("#spanStripe").hide();
+					}
+				});
+				});
+				
 		</script>
 		  <a href="https://api.whatsapp.com/send?phone=+529982930168" class="btn-wsp" target="_blank">
 		<i class="fa fa-whatsapp icono"></i>

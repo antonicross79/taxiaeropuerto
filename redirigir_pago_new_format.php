@@ -82,8 +82,11 @@ if ($tipo_de_pago == 'PAYPAL' ) {
         $product_name = 'Ticket de Transporte : '.$destino_1.'/'.$destino_2;//Nombre del producto
     };
 	
-	$product_price = $precio+$suma_precio;//Precio del producto
-	$product_currency = $row4['tipo_moneda'];//Moneda del producto 
+    $product_porc = $precio + ($precio * 0.09);
+    $extra_porc = $suma_precio + ($suma_precio * 0.09);
+    $product_price = $product_porc + $extra_porc;//Precio del product
+    
+    $product_currency = $row4['tipo_moneda'];//Moneda del producto 
 	//URL Paypal Modo pruebas.
 	$paypal_url = $row4['url_paypal'];
 	//URL Paypal para Recibir pagos 
@@ -94,7 +97,9 @@ if ($tipo_de_pago == 'PAYPAL' ) {
 	$cancel_return = "https://taxiaeropuertodecancun.com/booking-step2.php";
 	//Colocal la URL donde se redicciona cuando el pago fue completado con exito.
 	$success_return = "https://taxiaeropuertodecancun.com/booking-step3.php";
-
+    
+    $sql = "UPDATE reservaciones SET Total_comision='".$product_price."' WHERE id_reservacion='".$_SESSION['id_reservacion']."'";
+	$respuesta = mysqli_query($conexion,$sql);
 
 ?>
 	<div style="margin-left: 40%"><img src="img/processing_animation.gif"/>
@@ -135,11 +140,17 @@ else if ($tipo_de_pago == 'Stripe' ) {
         $product_name = 'Ticket de Transporte : '.$destino_1.'/'.$destino_2;//Nombre del producto
     };
 	
-	$product_price = $precio+$suma_precio;//Precio del producto
+    $product_porc = $precio + ($precio * 0.09);
+    $extra_porc = $suma_precio + ($suma_precio * 0.09);
+	$product_price = $product_porc + $extra_porc ;//Precio del producto
+ 
 	$_SESSION['product_price'] = $product_price;
+    
+     $sql = "UPDATE reservaciones SET Total_comision='".$product_price."' WHERE id_reservacion='".$_SESSION['id_reservacion']."'";
+     $respuesta = mysqli_query($conexion,$sql);
+    
 	$product_price = $product_price*100;
 	$_SESSION['product_name'] = $product_name;
-
 	?>
 
 	<!DOCTYPE html>
